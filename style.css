@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #415832;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.container{
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  height: 300px;
+  background: #313131;
+  box-shadow: 0 0 10px red,0 0 20px red;
+  border-radius: 10px;
+}
+.container > button{
+  border-radius: 10px;
+  border: none;
+  border: 2px solid red;
+  box-shadow: 0 0 10px red;
+  font-size: 25px;
+  color: red;
+  outline: none;
+  cursor: pointer;
+}
+input{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: right;
+}
